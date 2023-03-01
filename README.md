@@ -14,12 +14,12 @@ I will merge all PR, test the new version, and release a new version for HACS.
 ![GitHub Release Date](https://img.shields.io/github/release-date/AmoebeLabs/flex-horseshoe-card?style=for-the-badge)
 
 # ![](https://tweakers.net/ext/f/D4Fx1OKp6s7Hb21Wzq9JWCJb/full.png) Flexible Horseshoe Card
-Flexible looks-like-a-horseshoe card for [Home Assistant](https://github.com/home-assistant/home-assistant) Lovelace UI
+Flexible looks-like-a-horseshoe card for [Home Assistant](https://github.com/home-assistant/home-assistant) Dashboards
 
 ![](https://tweakers.net/ext/f/3jaSI26J9QxHJa8rTriXFNNO/full.png)
 
 
-*The Lovelace view of the above examples is in the repository in the examples folder.
+*The Dashboard view of the above examples is in the repository in the examples folder.
 </br>So you can see how these layouts are done*
 ***
 
@@ -111,7 +111,7 @@ Combined with animations and states, you can alter the appearance of objects. Th
   ```
 # ![](https://tweakers.net/ext/f/D4Fx1OKp6s7Hb21Wzq9JWCJb/full.png) Using the card
 
-The preferred method of using this card is by [`decluttering card`](https://github.com/custom-cards/decluttering-card) templates. You define the layout and default options in this template and use the template in your Lovelace config. This config stays clean this way: you only specify the entities, attributes, units and icons which are displayed according to the layout defined in the template.
+The preferred method of using this card is by [`decluttering card`](https://github.com/custom-cards/decluttering-card) templates. You define the layout and default options in this template and use the template in your Dashboard config. This config stays clean this way: you only specify the entities, attributes, units and icons which are displayed according to the layout defined in the template.
 
 The advice will become obvious once you scroll throught the list of card options :smile:
 
@@ -471,7 +471,7 @@ The Card Options are divided into Sections. To give a clear overview of which of
 
 The [examples section](#-examples-section) shows 12 examples of card definitions, from basic to using all available options!
 
-Note: The examples will get decluttering templates as an example too, to show how you can better manage and maintain the all the card layouts without loosing overview in the Lovelace views.
+Note: The examples will get decluttering templates as an example too, to show how you can better manage and maintain the all the card layouts without loosing overview in the Dashboard views.
 
 Each section might have it's own required, defaulted and optional properties.
 

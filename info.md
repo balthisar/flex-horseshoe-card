@@ -1,17 +1,16 @@
-# ![](https://tweakers.net/ext/f/D4Fx1OKp6s7Hb21Wzq9JWCJb/full.png) Flexible Horseshoe Card
-Info Flexible looks-like-a-horseshoe card for [Home Assistant](https://github.com/home-assistant/home-assistant) Lovelace UI
+# ![](https://tweakers.net/ext/f/D4Fx1OKp6s7Hb21Wzq9JWCJb/full.png) Flexible Horseshoe Card (balthisar fork)
+Looks-like-a-horseshoe card for [Home Assistant](https://github.com/home-assistant/home-assistant) Dashboards
 
-![](https://tweakers.net/ext/f/3jaSI26J9QxHJa8rTriXFNNO/full.png)
+![](https:/ /tweakers.net/ext/f/3jaSI26J9QxHJa8rTriXFNNO/full.png)
 
 
-*The Lovelace view of the above examples is in the repository in the examples folder.
-</br>So you can see how these layouts are done*
+*The Dashboards view of the above examples is in the repository in the examples folder, so you can see how these layouts are done.*
 ***
 
 ## Introduction
 The flexible horseshoe card can display data from entities and attributes from the sensor and other domains. It displays the current state and for the primary entity it fills the horseshoe with a color depending on the min and max values of the state and the configured color stops and styling.
 
-The main perk of this card is it's flexibility. It is able to position a number of things where YOU want it using a layout specification for each object you want on the card:
+The main perk of this card is its flexibility. It is able to position a number of things where YOU want it using a layout specification for each object you want on the card:
 
 | Feature | Description        |
 |---------|-------------|
