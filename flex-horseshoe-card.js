@@ -533,7 +533,6 @@ import {
           opacity: 0.8;
           fill : var(--primary-text-color);
           font-size: 1.5em;
-          text-transform: uppercase;
           letter-spacing: 0.1em;
         }
   
